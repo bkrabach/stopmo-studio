@@ -1,0 +1,22 @@
+# Painted wooden toys: crisp shapes, glossy enamel paint, snappy 8-exposure movement.
+name: toybox
+lumpiness: 0.0
+boil: 0.0
+pose_jitter: 0.3
+camera_drift: 0.0
+light_rig: bright
+light_flicker: 0.0
+fps: 8
+lens: 50
+fstop: 8.0
+materials:
+  default: {recipe: glossy, roughness: 0.25, coat: 0.4}
+  skin: {recipe: wood, ring_scale: 0.004, roughness: 0.45}
+  cloth: {recipe: glossy, roughness: 0.22, coat: 0.5}
+  knit: {recipe: glossy, roughness: 0.3, coat: 0.3}
+  hair: {recipe: glossy, roughness: 0.3, coat: 0.3}
+  teeth: {recipe: glossy, roughness: 0.2}
+  mouth: {recipe: glossy, roughness: 0.4, coat: 0.0}
+  shoe: {recipe: glossy, roughness: 0.15, coat: 0.8}
+  fabric: {recipe: matte}
+grade: {grain: 0.02, vignette: 0.25, saturation: 1.2, contrast: 1.06}

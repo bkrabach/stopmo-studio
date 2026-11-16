@@ -1,0 +1,34 @@
+# Designer-toy vinyl on a seamless paper sweep: smooth satin shapes, clear domes, soft product light.
+# The stop-motion feel comes from movement (12 exposures a second, replacement faces, small hand
+# errors), not from surface texture: nothing boils and nothing is lumpy.
+name: vinyl
+lumpiness: 0.0
+boil: 0.0
+pose_jitter: 0.35
+camera_drift: 0.0
+light_rig: softbox
+light_flicker: 0.004
+view: standard       # true colours (the pale paper stays cream); the other styles use the filmic response
+fps: 12
+lens: 50
+fstop: 8.0
+materials:
+  default: {recipe: vinyl}
+  skin: {recipe: vinyl, sss: 0.45}
+  cloth: {recipe: vinyl}
+  knit: {recipe: vinyl, roughness: 0.6, coat: 0.0}
+  hair: {recipe: vinyl}
+  eye: {recipe: glossy, roughness: 0.1, coat: 0.8}
+  pupil: {recipe: glossy, roughness: 0.08, coat: 0.8}
+  teeth: {recipe: vinyl}
+  mouth: {recipe: vinyl, roughness: 0.5, coat: 0.0}
+  shoe: {recipe: vinyl}
+  wood: {recipe: vinyl}
+  ceramic: {recipe: vinyl, roughness: 0.3, coat: 0.3}
+  metal: {recipe: metal, roughness: 0.45}
+  paper: {recipe: matte, roughness: 0.9, grain: 0.3}
+  wall: {recipe: matte, roughness: 0.95, grain: 0.25}
+  floor: {recipe: matte, roughness: 0.95, grain: 0.25}
+  glass: {recipe: clear}
+  fabric: {recipe: vinyl, roughness: 0.6, coat: 0.0}
+grade: {grain: 0.008, vignette: 0.2, saturation: 1.22, contrast: 1.12}

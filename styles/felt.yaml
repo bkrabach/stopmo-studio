@@ -1,0 +1,25 @@
+# Needle-felt and wool puppets in bright daylight: soft, fuzzy, no surface boil.
+name: felt
+lumpiness: 0.6
+boil: 0.0
+pose_jitter: 0.6
+camera_drift: 0.0
+light_rig: bright
+light_flicker: 0.005
+fps: 12
+lens: 60
+fstop: 5.6
+materials:
+  default: {recipe: felt}
+  skin: {recipe: felt, fuzz: 0.8}
+  cloth: {recipe: felt}
+  hair: {recipe: felt, fuzz: 1.4}
+  teeth: {recipe: felt, fuzz: 0.3}
+  mouth: {recipe: felt, fuzz: 0.4}
+  shoe: {recipe: felt}
+  wall: {recipe: felt, fuzz: 0.5}
+  floor: {recipe: felt, fuzz: 0.7}
+  wood: {recipe: felt, fuzz: 0.6}
+  paper: {recipe: felt, fuzz: 0.4}
+  ceramic: {recipe: felt, fuzz: 0.5}
+grade: {grain: 0.014, vignette: 0.2, saturation: 1.15, contrast: 1.0}

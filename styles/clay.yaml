@@ -1,0 +1,12 @@
+# Plasticine on a kitchen-table set: thumbprints, waxy sheen, surfaces that 'boil'.
+name: clay
+lumpiness: 1.0
+boil: 0.15       # share of the surface texture re-sculpted each exposure (0 = frozen .. 1 = all)
+pose_jitter: 0.5     # hand error on parts that move in an exposure; held parts stay still
+camera_drift: 0.0    # tripod nudge between exposures (1.0 = 0.4 mm); 0 = locked off
+light_rig: cosy
+light_flicker: 0.006
+fps: 12
+lens: 50
+fstop: 4.0
+grade: {grain: 0.016, vignette: 0.35, saturation: 1.08, contrast: 1.04}
